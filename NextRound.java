@@ -15,7 +15,7 @@ public class NextRound {
         sc.close();
         for(int i = 0; i < scores.length; i++)
         {
-            if(scores[i] > k)
+            if(scores[i] >= scores[k-1] && scores[i] > 0)
             {
                 count += 1;
             }
@@ -24,4 +24,5 @@ public class NextRound {
     }
 }
 //! score >= kth place -> advance to next round
-//! n participants
+//! n participants - each participant scores b/w [0 - 100]
+//! sequence is decreasing or canstant which is something to take care of
