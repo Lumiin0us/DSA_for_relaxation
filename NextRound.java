@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class NextRound {
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        int n, k;
+        int count = 0; 
+        n = sc.nextInt();
+        k = sc.nextInt();
+        int scores[] = new int[n];
+        for(int i = 0; i < n; i++)
+        {
+            scores[i] = sc.nextInt();
+        }
+        sc.close();
+        for(int i = 0; i < scores.length; i++)
+        {
+            if(scores[i] > k)
+            {
+                count += 1;
+            }
+        }
+        System.out.println(count);
+    }
+}
+//! score >= kth place -> advance to next round
+//! n participants
