@@ -17,12 +17,10 @@ public class DifferentDifferences {
     {
         int count = 1;
         int x = 1;
-        int dec = k - 1;x
-        // int dec = 0; 
+        int dec = k - 1;
         int arr[] = new int[k];
         for(int i = 0; i < k; i++)
         {
-            // dec = k - i + 1;
              //! 1, 2, 4, 7   - 1 2 3 4 5 (1 - 2 - 4 - 7 - 11)
              //! n - k 
              //! k - x 
