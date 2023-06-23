@@ -30,3 +30,5 @@ class Solution:
             if len(local_list) > 0:
                 final_list.append(local_list)
         print(final_list)
+sol = Solution()
+sol.anagram()
