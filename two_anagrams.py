@@ -32,3 +32,4 @@ class Solution:
         print(final_list)
 sol = Solution()
 sol.anagram()
+
