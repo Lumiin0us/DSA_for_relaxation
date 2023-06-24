@@ -10,3 +10,5 @@ for i in range(1, k + 1):
     if len(nums) > 0:
         l.append((list(sorted_dict[len(sorted_dict) - i])[0]))
 print(l)
+
+#can we faster with heap but we can practice that in the later concepts. 
