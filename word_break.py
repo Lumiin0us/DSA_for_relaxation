@@ -22,6 +22,5 @@ class Solution:
         print(False)
     else:
         print(True)
-            # w += word 
 
 
