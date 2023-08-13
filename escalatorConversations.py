@@ -16,8 +16,10 @@ while t:
     count = 0
     for i in range(m - 1): 
         for height in heights:
-            height += k
-            new_heights.append(height)
-        k += k 
+            print(len(heights))
+            new_heights.append(height + k)
+        #     height += k
+        #     new_heights.append(height)
+        # k += k 
     print(new_heights)
     t -= 1
